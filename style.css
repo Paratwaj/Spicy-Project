@@ -5,7 +5,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header{
-    background-image: url(/Images/chili.jpg);
+    background-image: url(./Images/chili.jpg);
     background-size: cover;
     height: 100vh;
   color: white;
