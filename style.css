@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    background-image: url(/Images/chili.jpg);
+    background-size: cover;
+    height: 100vh;
+  color: white;
+ 
+}
+.link a{
+    text-decoration: none;
+   color: yellow;
+   padding: 20px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(121, 68, 33, 0.89);
+}
+.main content div{
+    display: flex;
+}
+#logo{
+    flex: 3;
+    font-size: 30px;
+}
+nav{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color: green;
+}
+ 
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    padding: 40px;
+}
+.tag{
+    font-size: 50px;
+  font-weight: 30px;
+  color:yellow;
+}
+.tag1{
+    margin-top: 10px;
+    font-size: 30px;
+    color:darkgreen;
+}
+.tag2{
+    margin-top: 10px;
+    
+}
+button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+button:hover{
+    cursor: alias;
+    color: pink;
+    background-color: deeppink;
+}
+.menu{
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+}
+.menu th{
+    color: green;
+}
+.menu tr{
+    display: flex;
+   justify-content: center;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+   
+} 
+.menu td:nth-child(2){
+    justify-self: right;
+}
+table{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: red;
+}.location{
+   display: flex;
+    background-color: darkgrey;
+    flex-wrap: wrap;
+}
+.location div{
+            flex: 1;
+            min-width:320px;
+            padding: 10px;
+}
+.location h3{
+    color: green;
+    padding: 10px;
+}
+.link i,nav i{
+    margin-right: 10px;
+}
